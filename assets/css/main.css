@@ -48,6 +48,11 @@
 	font-size: 40px;
 	font-weight: 600;
 	font-family: cursive;
+	color: maroon;
+}
+
+.navbar .logo span{
+	color: white;
 }
 
 .navbar .menu li{
@@ -128,12 +133,16 @@
 	padding: 0px 5px;
     font-size: 18px;
     line-height: 1.3333333;
-    border-radius: 6px;
+	border-radius: 6px;
+	outline: none;
 }
 .home .body .text-4 button i{
 	margin-right: 4px;
 }
-
+.home .body .text-4 button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
 
 .home .body .text-3 span{
 	color: #0073b1;

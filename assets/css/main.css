@@ -116,7 +116,7 @@
 }
 
 .home .body .text-2{
-	font-size: 70px;
+	font-size: 75px;
 	font-weight: 600;
 	margin-left: -3px;
 	position: relative;
@@ -125,7 +125,7 @@
 }
 
 .home .body .text-3{
-	font-size: 23px;
+	font-size: 26px;
 	margin: 5px 0;
 	position: relative;
 	top: -150px;
@@ -178,6 +178,12 @@
 	background-color: rgb(252, 214, 210);
 }
 
+@media(max-width: 1110px){
+	.home .width{
+		margin-left: 0px;
+	}
+}
+
 
 @media (max-width: 950px){
 	.width{
@@ -192,7 +198,7 @@
 		background: black;
 		text-align: center;
 		padding-top: 80px;
-		
+		transition: all 0.3s ease;
 	}
 	.navbar .menu.active{
 		left: 0;
@@ -212,5 +218,22 @@
 	.menu-button{
 	display: block;
 	z-index: 999;
+	}
+	.menu-button i.active:before{
+		content:"\f00d"
+	}
+
+	.home .body .text-1{
+		font-size:25px;
+	}
+
+	.home .body .text-2{
+	font-size: 70px;
+
+	}
+
+	.home .body .text-3{
+		font-size: 22px;
+
 	}
 }

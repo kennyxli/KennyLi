@@ -3,9 +3,11 @@
         var docViewBottom = docViewTop + $(window).height();
 
         var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height() + 15;
+        var elemBottom = elemTop + $(elem).height();
 
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        return (
+            // (elemBottom <= docViewBottom) && 
+        (elemTop >= docViewTop));
     }
 
 $(document).ready(function(){
@@ -20,9 +22,6 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if(isScrolledIntoView('.image')){
             $('.image').addClass("slide")
-        }
-        else{
-            $('.image').removeClass("slide")
         }
     })
     $('.menu-button').click(function(){

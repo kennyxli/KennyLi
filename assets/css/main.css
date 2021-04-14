@@ -242,6 +242,7 @@
 .about{
 	font-family: sans-serif;
 	background: rgb(235, 222, 222);
+	padding: 100px 0;
 }
 
 .about .about-title{
@@ -250,6 +251,7 @@
 	font-size: 40px;
 	font-weight: 500;
 	margin-bottom: 60px;
+	padding-bottom: 20px;
 }
 
 .left img{

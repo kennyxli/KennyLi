@@ -131,7 +131,7 @@ html{
 }
 
 .home .body .text-3{
-	font-size: 28px;
+	font-size: 25px;
 	margin: 5px 0;
 	position: relative;
 	top: -150px;
@@ -165,7 +165,7 @@ html{
 	font-family:sans-serif;
 	font-weight: 600;
 	background-color: white;
-	width: 150px;
+	width: 125px;
 	height: 35px;
 	padding: 0px 5px;
 	font-size: 18px;
@@ -190,7 +190,8 @@ html{
 .about{
 	font-family: sans-serif;
 	background: rgb(235, 222, 222);
-	padding: 100px 0;
+	padding: 75px 0;
+	height: 100vh;
 }
 
 .about .about-title{
@@ -242,7 +243,40 @@ html{
 	text-align: justify;
 }
 
+.skills{
+	font-family: sans-serif;
+	padding: 75px 0;
+}
 
+
+.skills .skills-title{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+
+.skills-body{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.skills-body div img{
+	width: 150px;
+	height: 150px;
+	margin: 40px 35px 10px 35px
+}
+
+
+
+.skills-body div p{
+	font-size: 20px;
+	font-weight: 600;
+}
 
 @media(max-width: 1110px){
 	.home .width{
@@ -300,7 +334,11 @@ html{
 	}
 
 	.home .body .text-3{
-		font-size: 24px;
+		font-size: 22px;
+	}
+	.home .body .text-4 button{
+		font-size: 15px;
+		width:115px;
 	}
 	
 	.about .about-body .column{
@@ -317,5 +355,13 @@ html{
 		flex: 100%;
 	}
 
+	.skills-body div img{
+		width: 60px;
+		height: 60px;
+	}
+	.skills-body div p{
+	font-size: 17px;
+	font-weight: 600;
+}
 }
 

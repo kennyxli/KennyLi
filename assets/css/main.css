@@ -164,16 +164,17 @@ html{
 	letter-spacing:.5px;
 	font-family:sans-serif;
 	font-weight: 600;
-	background-color: white;
+	background-color: maroon;
+	color: white;
 	width: 125px;
-	height: 35px;
+	height: 40px;
 	padding: 0px 5px;
 	font-size: 18px;
-	border: 1px solid lightgray;
+	border: 1px solid rgb(252, 214, 210);
 	border-radius: 5px;
 	outline: none;
 	/* transition: color 0.3s ease; */
-	transition: transform .3s;
+	transition: all .3s;
 	transform:  perspective(1000px) translateZ(0px);
 }
 .home .body .text-4 button i{
@@ -185,6 +186,7 @@ html{
 	/* transform: scale(1.05); */
 	transform:  perspective(1000px) translateZ(100px);
 	background-color: rgb(252, 214, 210);
+	color:black;
 }
 
 .about{
@@ -270,13 +272,69 @@ html{
 	height: 150px;
 	margin: 40px 35px 10px 35px
 }
-
-
-
 .skills-body div p{
 	font-size: 20px;
 	font-weight: 600;
 }
+
+.project-body{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.project-body .project-wrapper {
+	position: relative;
+	height: 640px;
+	width: 820px;
+}
+.project-wrapper .amazone-video{
+	height: 640px;
+	width: 820px;
+}
+.project-body .project-wrapper .amazone-desc{
+	position: absolute;
+	top:94px;
+	left: 0;
+	height: 450px;
+	width: 820px;
+	z-index: 500;
+	color: white;
+	background: rgba(0,0,0,0.6);
+	display: flex;
+		flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.project-body .project-wrapper .amazone-desc:hover{
+	opacity: 1;
+}
+
+.amazone-desc h4{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.amazone-desc p{
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+/* .amazone-video:hover + .amazone-desc{
+	display: block;
+		flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+} */
+
+
+
 
 @media(max-width: 1110px){
 	.home .width{
@@ -300,6 +358,12 @@ html{
 		text-align: center;
 		padding-top: 80px;
 		transition: all 0.3s ease;
+	}
+	.navbar.sticky{
+		padding: 5px 0;
+	}
+	.navbar .logo a{
+		font-size: 30px;
 	}
 	.navbar .menu.active{
 		left: 0;

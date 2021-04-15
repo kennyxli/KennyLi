@@ -355,6 +355,26 @@ html{
 		flex: 100%;
 	}
 
+	.about{
+		font-family: sans-serif;
+		background: rgb(235, 222, 222);
+		padding: 45px 0;
+		height: 100vh;
+	}
+
+	.about .about-title{
+		margin-bottom: 10px;
+	}
+
+	.about .about-body img{
+		height: 170px;
+		width: 100px;
+	}
+	.about .about-body .right .text{
+		margin-top: -15px;
+		font-size: 17px;
+	}
+
 	.skills-body div img{
 		width: 60px;
 		height: 60px;

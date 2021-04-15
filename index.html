@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <link rel="stylesheet" href="./assets/css/main.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
@@ -15,10 +16,10 @@
         <div class="width">
             <div class="logo"><a href="#">Kenny<span>Dev</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#home" class="menu-button">Home</a></li>
+                <li><a href="#about" class="menu-button">About Me</a></li>
+                <li><a href="#skills" class="menu-button">Skills</a></li>
+                <li><a href="#" class="menu-button">Projects</a></li>
             </ul>
             <div class="menu-button">
                 <i class="fa fa-bars"></i>
@@ -29,13 +30,13 @@
     <div class="home" id="home">
         <div class="width">
             <div class="body">
-                <div class="text-1"><span id="type">Hello,</span> my name is</div>
+                <div class="text-1"><span id="type">Welcome,</span> my name is</div>
                 <div class="text-2">Kenny Li</div>
-                <div class="text-3">Welcome to my <span>Portfolio</span></div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
                 <div class="text-4">
-                    <a href="https://github.com/kennyxli"><button><i class="fa fa-github-square"></i>Github</button></a>
-                    <a href="https://www.linkedin.com/in/kenny-li-793b6b15b/"><button><i class="fa Example of linkedin-square fa-linkedin-square"></i>LinkedIn</button></a>
-                    <a href="#"><button><i class="fa fa-file-text"></i>Resume</button></a>
+                    <a href="https://github.com/kennyxli"><button><i class="fa fa-github-square"></i>GITHUB</button></a>
+                    <a href="https://www.linkedin.com/in/kenny-li-793b6b15b/"><button><i class="fa Example of linkedin-square fa-linkedin-square"></i>LINKEDIN</button></a>
+                    <a href="#"><button><i class="fa fa-file-text"></i>RESUME</button></a>
                 </div>
             </div>
         </div>
@@ -44,13 +45,25 @@
         <div class="width">
             <h1 class="about-title">About Me</h1>
             <div class="about-body">
-                <div class="left">
+                <div class="left column">
                     <img class="image" src="./assets/images/me4.png" >
+                </div>
+                <div class="right column">
+                    <div class="text">
+                        Hey, I'm Kenny! I'm a software developer based in New York City. 
+                    </div>
+                    <p>I am passionate in creating easy-to-use, user-friendly websites.  </p>
                 </div>
             </div>
         </div>
     </div>
-    
+
+    <div class="skills" id="skills">
+        <div class="width">
+            <h2 class="skills-title">Skills</h2>
+            
+        </div>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

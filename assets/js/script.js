@@ -1,14 +1,16 @@
-    function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
 
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
 
-        return (
-            // (elemBottom <= docViewBottom) && 
-        (elemTop >= docViewTop));
-    }
+    return (
+        (elemBottom <= docViewBottom))
+    // (elemTop >= docViewTop));
+}
+
+
 
 $(document).ready(function(){
     $(window).scroll(function(){
@@ -25,8 +27,17 @@ $(document).ready(function(){
         }
     })
     $('.menu-button').click(function(){
-        $('.navbar .menu').toggleClass("active")
-        $('.body').toggleClass("active")
-        $('.menu-button i').toggleClass("active")
+        if ($(window).width() < 1000){
+            $('.navbar .menu').toggleClass("active")
+            $('.body').toggleClass("active")
+            $('.menu-button i').toggleClass("active")
+        }
+    })
+
+    let typed = new Typed(".typing", {
+        strings: ["Back-end Developer", "Front-end Developer", "Full-Stack Developer"],
+        typeSpeed: 75,
+        backSpeed: 35,
+        loop: true
     })
 })

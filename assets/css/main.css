@@ -23,6 +23,10 @@
 	text-decoration: none;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .navbar{
 	position: fixed;
 	width: 100%;
@@ -67,6 +71,7 @@
 }
 
 .navbar .menu li a{
+	display: block;
 	color: white;
 	font-size: 18px;
 	margin-left: 25px;
@@ -156,9 +161,11 @@
 }
 
 .home .body .text-4 button{
-
+	letter-spacing:.5px;
+	font-family:sans-serif;
+	font-weight: 600;
 	background-color: white;
-	width: 105px;
+	width: 150px;
 	height: 35px;
 	padding: 0px 5px;
 	font-size: 18px;
@@ -180,6 +187,63 @@
 	background-color: rgb(252, 214, 210);
 }
 
+.about{
+	font-family: sans-serif;
+	background: rgb(235, 222, 222);
+	padding: 100px 0;
+}
+
+.about .about-title{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+
+.about .about-body{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-body .left{
+	width: 45%
+}
+
+.left img{
+	 opacity:0;
+	height: 270px;
+	width: 200px;
+	object-fit: cover;
+	object-position: top;
+	border: 10px solid white;
+	border-radius: 1500px;
+	
+}
+.image.slide{
+	animation: 1.2s ease-in 0s 1 slideInFromLeft;
+	opacity:1;
+}
+
+.about .about-body .right{
+	width: 55%
+}
+
+.about-body .right .text{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.about-body .right p {
+	text-align: justify;
+}
+
+
+
 @media(max-width: 1110px){
 	.home .width{
 		margin-left: 0px;
@@ -190,6 +254,7 @@
 @media (max-width: 950px){
 	.width{
 		padding: 0 50px;
+		
 	}
 	.navbar .menu{
 		position: fixed;
@@ -237,34 +302,20 @@
 	.home .body .text-3{
 		font-size: 24px;
 	}
-}
-
-.about{
-	font-family: sans-serif;
-	background: rgb(235, 222, 222);
-	padding: 100px 0;
-}
-
-.about .about-title{
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 40px;
-	font-weight: 500;
-	margin-bottom: 60px;
-	padding-bottom: 20px;
-}
-
-.left img{
-	 opacity:0;
-	height: 270px;
-	width: 200px;
-	object-fit: cover;
-	object-position: top;
-	border: 10px solid white;
-	border-radius: 1500px;
 	
+	.about .about-body .column{
+		width: 100%;
+	}
+
+	.about .about-body .left {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto 60px;
+	}
+
+	.about .about-body .right{
+		flex: 100%;
+	}
+
 }
-.image.slide{
-	animation: 1.5s ease-out 0s 1 slideInFromLeft;
-	opacity:1;
-}
+

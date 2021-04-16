@@ -280,7 +280,7 @@ html{
 .projects{
 	background:aliceblue;
 	padding: 75px 0;
-	height: 500vh;
+	height: 300vh;
 }
 
 .project-body{
@@ -366,6 +366,19 @@ html{
 @media(max-width: 1110px){
 	.home .width{
 		margin-left: 0px;
+	}
+	.project-body .project-wrapper{
+		height: 400px;
+		width: 900px;
+	}
+	.project-wrapper .amazone-video{
+		width: 900px;
+		height: 500px;
+	}	
+	.project-body .project-wrapper .amazone-desc{
+		top:1px;
+		height: 399px;
+		width: 900px;
 	}
 }
 
@@ -473,6 +486,19 @@ html{
 	.skills-body div p{
 		font-size: 17px;
 		font-weight: 600;
+	}
+	.project-body .project-wrapper{
+		height: 300px;
+		width: 700px;
+	}
+	.project-wrapper .amazone-video{
+		width: 700px;
+		height: 390px;
+	}	
+	.project-body .project-wrapper .amazone-desc{
+		top:1px;
+		height: 309px;
+		width: 700px;
 	}
 	
 }

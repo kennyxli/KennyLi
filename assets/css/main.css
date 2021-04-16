@@ -218,8 +218,8 @@ html{
 
 .left img{
 	 opacity:0;
-	height: 270px;
-	width: 200px;
+	height: 350px;
+	width: 270px;
 	object-fit: cover;
 	object-position: top;
 	border: 10px solid white;
@@ -227,7 +227,7 @@ html{
 	
 }
 .image.slide{
-	animation: 1.2s ease-in 0s 1 slideInFromLeft;
+	animation: .5s ease-in 0s 1 slideInFromLeft;
 	opacity:1;
 }
 

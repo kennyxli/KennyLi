@@ -33,9 +33,7 @@ $(document).ready(function(){
             $('.menu-button i').toggleClass("active")
         }
     })
-    $('.picturewave').click(function(){
-        $('.picturewave .amazone-desc').toggleClass("active")
-    })
+
     let typed = new Typed(".typing", {
         strings: ["Back-end Developer", "Front-end Developer", "Full-Stack Developer"],
         typeSpeed: 75,

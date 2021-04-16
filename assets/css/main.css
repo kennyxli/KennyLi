@@ -333,9 +333,6 @@ html{
 .project-body .project-wrapper .amazone-desc:hover{
 	opacity: 1;
 }
-.amazone-desc.active{
-	
-}
 
 .amazone-desc:hover + .project-wrapper {
 	transform: scale(1.3);

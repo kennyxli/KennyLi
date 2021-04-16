@@ -524,7 +524,7 @@ html{
 }
 @media(max-width: 300px ){
 		.project-body .project-wrapper{
-			max-height: 100px;
+			max-height: 86px;
 			border-radius: 8px;
 	}
 }

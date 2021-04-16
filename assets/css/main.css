@@ -327,8 +327,14 @@ html{
 	transition: opacity 0.5s;
 }
 
+.project-body .project-wrapper .amazone-desc:active{
+	opacity: 1;
+}
 .project-body .project-wrapper .amazone-desc:hover{
 	opacity: 1;
+}
+.amazone-desc.active{
+	
 }
 
 .amazone-desc:hover + .project-wrapper {

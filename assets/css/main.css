@@ -522,4 +522,10 @@ html{
 		width: 100%;
 	}
 }
+@media(max-width: 300px ){
+		.project-body .project-wrapper{
+			max-height: 100px;
+			border-radius: 8px;
+	}
+}
 

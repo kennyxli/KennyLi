@@ -493,12 +493,12 @@ html{
 
 @media(max-width: 500px ){
 		.project-body .project-wrapper{
-		height: 30px;
-		width: 50px;
+		height: 100px;
+		width: 250px;
 	}
 	.project-wrapper .amazone-video{
-		width: 50px;
-		height: 35px;
+		width: 250px;
+		height: 137px;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;

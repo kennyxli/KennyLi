@@ -375,9 +375,8 @@ html{
 	}
 	.project-wrapper .amazone-video{
 		max-width:100%;
-		max-height: 100%;
 		width: auto;
-		height: auto;
+		
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
@@ -497,7 +496,7 @@ html{
 	}
 	.project-wrapper .amazone-video{
 		width: 100%;
-		height: 100%;
+		height:100%
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
@@ -506,11 +505,12 @@ html{
 	}
 	
 }
-@media(max-width: 500px ){
-		.project-body .project-wrapper{
-			max-height: 210px;
-		height: auto;
-		width: auto;
+@media(max-width: 300px ){
+	.projects .project-body .project-wrapper{
+		max-height: 109px;
+		max-width: 250px;
+		min-height: 109px;
+		min-width: 200px;
 	}
 	.project-wrapper .amazone-video{
 		width: 100%;
@@ -524,8 +524,11 @@ html{
 }
 @media(max-width: 300px ){
 		.project-body .project-wrapper{
-			max-height: 100px;
 			border-radius: 8px;
 	}
+	.project-wrapper .amazone-video{
+		
+		min-height: 100%;
+	}	
 }
 

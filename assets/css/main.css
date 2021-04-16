@@ -292,8 +292,10 @@ html{
 
 .project-body .project-wrapper {
 	position: relative;
-	height: 550px;
-	width: 1100px;
+	max-height: 550px;
+	max-width: 1000px;
+	height: auto;
+	width: auto;
 	border-radius: 10px;
 	overflow: hidden;
 	border-radius: 22px;
@@ -305,24 +307,24 @@ html{
 }
 
 .project-wrapper .amazone-video{
-	width: 1100px;
+	height: 100%;
 }
 .project-body .project-wrapper .amazone-desc{
 	position: absolute;
 	top:0px;
 	left: 0px;
-	height: 550px;
-	width: 1100px;
+	height: 100%;
+	width: 100%;
 	z-index: 500;
 	color: white;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.8);
 	display: flex;
 		flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-family: sans-serif;
 	opacity: 0;
-	transition: opacity 0.3s;
+	transition: opacity 0.5s;
 }
 
 .project-body .project-wrapper .amazone-desc:hover{
@@ -339,7 +341,7 @@ html{
 }
 
 .amazone-desc p{
-	width: 80%;
+	width: 60%;
 	font-size: 1.25em;
 	margin-top: 0.25em;
 }
@@ -368,17 +370,19 @@ html{
 		margin-left: 0px;
 	}
 	.project-body .project-wrapper{
-		height: 400px;
-		width: 900px;
+		height: auto;
+		width: auto;
 	}
 	.project-wrapper .amazone-video{
-		width: 900px;
-		height: 500px;
+		max-width:100%;
+		max-height: 100%;
+		width: auto;
+		height: auto;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
-		height: 399px;
-		width: 900px;
+		height: 100%;
+		width: 100%;
 	}
 }
 
@@ -488,33 +492,33 @@ html{
 		font-weight: 600;
 	}
 	.project-body .project-wrapper{
-		height: 300px;
-		width: 700px;
+		height: auto;
+		width: auto;
 	}
 	.project-wrapper .amazone-video{
-		width: 700px;
-		height: 390px;
+		width: 100%;
+		height: 100%;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
-		height: 309px;
-		width: 700px;
+		height: 100%;
+		width: 100%;
 	}
 	
 }
 @media(max-width: 700px ){
 		.project-body .project-wrapper{
-		height: 175px;
-		width: 320px;
+		height: auto;
+		width: auto;
 	}
 	.project-wrapper .amazone-video{
-		width: 320px;
-		height: 175px;
+		width: 100%;
+		height: 100%;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
-		height: 175px;
-		width: 320px;
+		height: 100%;
+		width: 100%;
 	}
 }
 

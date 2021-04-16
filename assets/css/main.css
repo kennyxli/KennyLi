@@ -506,8 +506,9 @@ html{
 	}
 	
 }
-@media(max-width: 700px ){
+@media(max-width: 500px ){
 		.project-body .project-wrapper{
+			max-height: 250px;
 		height: auto;
 		width: auto;
 	}

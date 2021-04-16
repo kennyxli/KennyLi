@@ -491,14 +491,14 @@ html{
 	
 }
 
-@media(max-width: 700px ){
+@media(max-width: 500px ){
 		.project-body .project-wrapper{
-		height: 100px;
-		width: 250px;
+		height: 50px;
+		width: 150px;
 	}
 	.project-wrapper .amazone-video{
-		width: 250px;
-		height: 137px;
+		width: 150px;
+		height: 85px;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;

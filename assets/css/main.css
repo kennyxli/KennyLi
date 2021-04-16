@@ -487,22 +487,34 @@ html{
 		font-size: 17px;
 		font-weight: 600;
 	}
-
-	
-}
-
-@media(max-width: 500px ){
-		.project-body .project-wrapper{
-		height: 100px;
-		width: 250px;
+	.project-body .project-wrapper{
+		height: 300px;
+		width: 700px;
 	}
 	.project-wrapper .amazone-video{
-		width: 250px;
-		height: 137px;
+		width: 700px;
+		height: 390px;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
 		height: 309px;
 		width: 700px;
 	}
+	
 }
+@media(max-width: 700px ){
+		.project-body .project-wrapper{
+		height: 170px;
+		width: 320px;
+	}
+	.project-wrapper .amazone-video{
+		width: 320px;
+		height: 180px;
+	}	
+	.project-body .project-wrapper .amazone-desc{
+		top:1px;
+		height: 179px;
+		width: 320px;
+	}
+}
+

@@ -504,16 +504,16 @@ html{
 }
 @media(max-width: 700px ){
 		.project-body .project-wrapper{
-		height: 170px;
+		height: 175px;
 		width: 320px;
 	}
 	.project-wrapper .amazone-video{
 		width: 320px;
-		height: 180px;
+		height: 175px;
 	}	
 	.project-body .project-wrapper .amazone-desc{
 		top:1px;
-		height: 179px;
+		height: 175px;
 		width: 320px;
 	}
 }

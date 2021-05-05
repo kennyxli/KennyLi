@@ -331,6 +331,9 @@ html{
 .project-body .project-wrapper .amazone-desc:active{
 	opacity: 1;
 }
+.project-body .project-wrapper .amazone-desc:focus{
+	opacity: 1;
+}
 .project-body .project-wrapper .amazone-desc:hover{
 	opacity: 1;
 }

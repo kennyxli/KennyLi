@@ -293,7 +293,7 @@ html{
 .project-body .project-wrapper {
 	position: relative;
 	max-height: 550px;
-	max-width: 1000px;
+	max-width: 1010px;
 	height: auto;
 	width: auto;
 	border-radius: 10px;
@@ -308,6 +308,7 @@ html{
 
 .project-wrapper .amazone-video{
 	height: 100%;
+	width: 100%;
 }
 .project-body .project-wrapper .amazone-desc{
 	position: absolute;
@@ -347,6 +348,14 @@ html{
 	width: 60%;
 	font-size: 1.25em;
 	margin-top: 0.25em;
+}
+
+.amazone-desc p a{
+	color: lightblue;
+}
+
+.amazone-desc p a:hover{
+	text-decoration: underline;
 }
 
 /* .amazone-video:hover + .amazone-desc{

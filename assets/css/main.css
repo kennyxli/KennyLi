@@ -505,6 +505,8 @@ html{
 
 .content .column .left {
 	text-align: justify;
+	display: flex;
+	justify-content: ;
 }
 
 .content .row{
@@ -538,7 +540,7 @@ html{
 }
 
 .contact .content .right{
-	width: 55%
+	width: 45%
 }
 
 .content .right .text{
@@ -548,10 +550,14 @@ html{
 }
 
 .contact .content .left{
-	width: 85%
+	width: 45%
 }
 
 
+.contact .width .content .column{
+	width: 100%;
+	margin-bottom: 35px;
+}
 
 @media(max-width: 1110px){
 	.home .width{

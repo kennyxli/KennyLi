@@ -309,6 +309,7 @@ html{
 .project-wrapper .amazone-video{
 	height: 100%;
 	width: 100%;
+	margin-bottom: 50px;
 }
 .project-body .project-wrapper .amazone-desc{
 	position: absolute;
@@ -561,26 +562,6 @@ html{
 	margin-bottom: 35px;
 }
 
-@media(max-width: 1110px){
-	.home .width{
-		margin-left: 0px;
-	}
-	.project-body .project-wrapper{
-		height: auto;
-		width: auto;
-	}
-	.project-wrapper .amazone-video{
-		max-width:100%;
-		width: auto;
-		
-	}	
-	.project-body .project-wrapper .amazone-desc{
-		top:1px;
-		height: 100%;
-		width: 100%;
-	}
-}
-
 .scroll-up-button{
 	position: fixed;
 	height: 45px;
@@ -608,6 +589,26 @@ html{
 .scroll-up-button a{
 	color: white;
 }
+@media(max-width: 1110px){
+	.home .width{
+		margin-left: 0px;
+	}
+	.project-body .project-wrapper{
+		height: auto;
+		width: auto;
+	}
+	.project-wrapper .amazone-video{
+		max-width:100%;
+		width: auto;
+		
+	}	
+	.project-body .project-wrapper .amazone-desc{
+		top:1px;
+		height: 100%;
+		width: 100%;
+	}
+}
+
 
 
 @media (max-width: 950px){
@@ -738,7 +739,9 @@ html{
 @media(max-width: 400px ){
 	.projects{
 		height: 100vh;
+		
 	}
+
 		.content{
 	display: flex;
 	flex-direction: column;
@@ -761,6 +764,10 @@ html{
 	}
 }
 @media(max-width: 300px ){
+	.projects{
+		height: 100vh;
+		
+	}
 		.content{
 	display: flex;
 	flex-direction: column;

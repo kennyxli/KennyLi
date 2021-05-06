@@ -595,6 +595,15 @@ html{
 	font-size: 30px;
 	border-radius: 6px;
 	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+
+.scroll-up-button.show{
+	opacity: 1;
+	pointer-events: auto;
+	bottom: 30px;
 }
 .scroll-up-button a{
 	color: white;

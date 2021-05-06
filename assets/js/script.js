@@ -20,6 +20,12 @@ $(document).ready(function(){
         else{
             $('.navbar').removeClass("sticky")
         }
+        if(this.scrollY > 500){
+            $('.scroll-up-button').addClass("show")
+        }else{
+            $('.scroll-up-button').removeClass("show")
+
+        }
     })
     $(window).scroll(function(){
         if(isScrolledIntoView('.image')){

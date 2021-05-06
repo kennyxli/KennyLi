@@ -349,7 +349,7 @@ html{
 }
 
 .amazone-desc p{
-	width: 60%;
+	width: 75%;
 	font-size: 1.25em;
 	margin-top: 0.25em;
 }
@@ -733,6 +733,10 @@ html{
 		top:1px;
 		height: 100%;
 		width: 100%;
+		font-size: 7px;
+	}
+	.amazone-desc h4{
+		font-size: 9px;
 	}
 	
 }

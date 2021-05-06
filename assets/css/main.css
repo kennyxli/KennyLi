@@ -765,7 +765,7 @@ html{
 }
 @media(max-width: 300px ){
 	.projects{
-		height: 100vh;
+		height: 90vh;
 		
 	}
 		.content{

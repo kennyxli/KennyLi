@@ -736,6 +736,9 @@ html{
 	
 }
 @media(max-width: 400px ){
+	.projects{
+		height: 200vh;
+	}
 		.content{
 	display: flex;
 	flex-direction: column;

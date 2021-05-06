@@ -737,7 +737,7 @@ html{
 }
 @media(max-width: 400px ){
 	.projects{
-		height: 200vh;
+		height: 100vh;
 	}
 		.content{
 	display: flex;

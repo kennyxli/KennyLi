@@ -359,6 +359,7 @@ html{
 
 .amazone-desc p a:hover{
 	text-decoration: underline;
+	color: lightcoral;
 }
 
 /* .amazone-video:hover + .amazone-desc{
@@ -376,6 +377,178 @@ html{
 	font-weight: 600;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
+}
+
+.contact{
+	font-family: sans-serif;
+	padding: 75px 0;
+}
+
+.contact-title{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+
+.contact .contact-title::before{
+	content:"";
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	width: 180px;
+	height: 3px;
+	background: #111;
+	transform: translateX(-50%)
+}
+
+.contact .contact-title::after{
+	content:"Connect";
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	padding: 5px;
+	background: white;
+	transform: translateX(-50%);
+	font-size: 20px;
+	color: maroon;
+
+}
+.content .column .row .icon{
+	position: relative;
+	top: 8px;
+	font-size: 20px;
+	color: maroon;
+}
+
+.content .row .info .head{
+	font-weight: bold;
+}
+
+.contact .content .info .sub-title{
+	color: #333;
+}
+
+.contact .right form .fields{
+	display: flex;
+}
+
+
+.contact .right form .field,
+.contact .right form .fields .field{
+	height: 45px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .right form .textarea{
+	height: 80px;
+	
+}
+
+
+.contact .right form .name{
+	margin-right: 10px;
+}
+.contact .right form .email{
+	margin-left: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+	height: 100%;
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	outline: none;
+	padding: 0 15px;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+
+.contact .right form .textarea textarea{
+	padding-top: 5px;
+	
+}
+
+.contact .right form .button{
+	height: 47px;
+	width: 170px;
+}
+
+.contact .right form .button button{
+	width: 100%;
+	height: 100%;
+	border: 2px solid maroon;
+	background: maroon;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover{
+	color: maroon;
+	background: none;
+}
+
+
+
+.content .column{
+	width: calc(50% - 30px)
+}
+
+.content .column .left {
+	text-align: justify;
+}
+
+.content .row{
+	display: flex;
+	height: 65px;
+}
+
+.left .icons {
+	margin: 10px 0;
+}
+
+.row .info{
+	margin-left: 30px;
+
+
+}
+
+.content{
+	display: flex;
+}
+
+.contact .content .right{
+	flex: 100%;
+}
+
+
+
+.contact .content .right .text{
+	margin-top: -15px;
+	font-size: 17px;
+}
+
+.contact .content .right{
+	width: 55%
+}
+
+.content .right .text{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.contact .content .left{
+	width: 85%
 }
 
 

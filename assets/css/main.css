@@ -506,7 +506,6 @@ html{
 .content .column .left {
 	text-align: justify;
 	display: flex;
-	justify-content: ;
 }
 
 .content .row{
@@ -526,6 +525,8 @@ html{
 
 .content{
 	display: flex;
+
+
 }
 
 .contact .content .right{
@@ -550,11 +551,12 @@ html{
 }
 
 .contact .content .left{
-	width: 45%
+	width: 55%
 }
 
 
 .contact .width .content .column{
+
 	width: 100%;
 	margin-bottom: 35px;
 }
@@ -581,6 +583,11 @@ html{
 
 
 @media (max-width: 950px){
+		.content{
+	display: flex;
+	flex-direction: column;
+
+	}	
 	.width{
 		padding: 0 50px;
 		
@@ -654,6 +661,7 @@ html{
 
 	.about .about-body .right{
 		flex: 100%;
+		float:left;
 	}
 
 	.about{
@@ -700,6 +708,11 @@ html{
 	
 }
 @media(max-width: 400px ){
+		.content{
+	display: flex;
+	flex-direction: column;
+
+	}	
 	.projects .project-body .project-wrapper{
 		max-height: 109px;
 		max-width: 250px;
@@ -717,6 +730,11 @@ html{
 	}
 }
 @media(max-width: 300px ){
+		.content{
+	display: flex;
+	flex-direction: column;
+
+	}	
 		.project-body .project-wrapper{
 			border-radius: 8px;
 	}

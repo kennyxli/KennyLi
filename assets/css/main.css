@@ -581,6 +581,25 @@ html{
 	}
 }
 
+.scroll-up-button{
+	position: fixed;
+	height: 45px;
+	width: 42px;
+	background: maroon;
+	right: 30px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+	z-index: 9999;
+	font-size: 30px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.scroll-up-button a{
+	color: white;
+}
+
 
 @media (max-width: 950px){
 		.content{

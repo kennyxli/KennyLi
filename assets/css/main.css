@@ -344,6 +344,7 @@ html{
 }
 
 .amazone-desc h4{
+	text-decoration: underline;
 	font-size: 2em;
 	font-weight: bold;
 }

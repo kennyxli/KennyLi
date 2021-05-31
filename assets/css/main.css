@@ -191,7 +191,7 @@ html{
 
 .about{
 	font-family: sans-serif;
-	background: rgb(235, 222, 222);
+	background: rgb(240, 236, 236);
 	padding: 75px 0;
 	height: 100vh;
 }
@@ -242,7 +242,10 @@ html{
 }
 
 .about-body .right p {
+	font-family: sans-serif;
 	text-align: justify;
+	line-height: 25px;
+	font-size: 18px;
 }
 
 .skills{

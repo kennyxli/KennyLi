@@ -283,7 +283,7 @@ html{
 .projects{
 	background:aliceblue;
 	padding: 75px 0;
-	height: 300vh;
+	height: 120%;
 }
 
 .project-body{
@@ -747,7 +747,7 @@ html{
 }
 @media(max-width: 400px ){
 	.projects{
-		height: 100vh;
+		height: 120%;
 		
 	}
 
@@ -774,7 +774,7 @@ html{
 }
 @media(max-width: 300px ){
 	.projects{
-		height: 90vh;
+		height: 120%;
 		
 	}
 		.content{

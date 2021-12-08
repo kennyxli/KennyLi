@@ -437,7 +437,7 @@ html{
 	position: absolute;
 	bottom: 0px;
 	left: 50%;
-	width: 180px;
+	width: 250px;
 	height: 3px;
 	background: #111;
 	transform: translateX(-50%)

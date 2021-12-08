@@ -270,7 +270,7 @@ html{
 	font-family: sans-serif;
 	text-align: justify;
 	line-height: 25px;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .skills{
@@ -377,13 +377,13 @@ html{
 
 .amazone-desc h4{
 	text-decoration: underline;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: bold;
 }
 
 .amazone-desc p{
 	width: 75%;
-	font-size: 1.25em;
+	font-size: 1.85em;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }

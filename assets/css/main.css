@@ -153,7 +153,7 @@ html{
 }
 
 .home .body .text-3 span{
-	color: maroon;
+	color: darkcyan;
 	font-weight: 600;
 
 }
@@ -179,7 +179,7 @@ html{
 	letter-spacing:.5px;
 	font-family:sans-serif;
 	font-weight: 600;
-	background-color: maroon;
+	background-color: darkslategrey;
 	color: white;
 	width: 125px;
 	height: 40px;

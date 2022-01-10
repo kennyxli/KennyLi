@@ -297,7 +297,11 @@ html{
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	text-align: center;
+	border: 2px solid black;
+    border-radius: 10px;
+	padding-bottom: 40px;
 }
+
 
 .skills-body div img{
 	width: 170px;

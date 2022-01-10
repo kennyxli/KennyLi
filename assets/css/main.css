@@ -206,7 +206,7 @@ html{
 
 .about{
 	font-family: sans-serif;
-	background: darkslategrey;
+	background: azure;
 	padding: 75px 0;
 	height: 100vh;
 }
@@ -271,6 +271,7 @@ html{
 	text-align: justify;
 	line-height: 25px;
 	font-size: 20px;
+	color: darkslategray;
 }
 
 .skills{

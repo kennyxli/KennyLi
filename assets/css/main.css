@@ -206,9 +206,9 @@ html{
 
 .about{
 	font-family: sans-serif;
-	background: darkslategrey;
+	background: azure;
 	padding: 75px 0;
-	height: 100vh;
+	height: 110vh;
 }
 
 .about .about-title{
@@ -219,13 +219,8 @@ html{
 	margin-bottom: 60px;
 	padding-bottom: 20px;
 	padding-bottom: 20px;
-<<<<<<< HEAD
-    margin-right: 35%;
-    margin-left: 35%;
-=======
     margin-right: 37%;
     margin-left: 37%;
->>>>>>> gh-pages
     border-bottom: 3px solid black;
 }
 
@@ -276,6 +271,7 @@ html{
 	text-align: justify;
 	line-height: 25px;
 	font-size: 20px;
+	color: darkslategray;
 }
 
 .skills{
@@ -291,13 +287,8 @@ html{
 	font-weight: 600;
 	margin-bottom: 40px;
 	padding-bottom: 10px;
-<<<<<<< HEAD
-	margin-right: 30%;
-    margin-left: 30%;
-=======
 	margin-right: 32%;
     margin-left: 32%;
->>>>>>> gh-pages
     border-bottom: 3px solid black;
 }
 
@@ -306,7 +297,11 @@ html{
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	text-align: center;
+	border: 2px solid black;
+    border-radius: 10px;
+	padding-bottom: 40px;
 }
+
 
 .skills-body div img{
 	width: 170px;
@@ -422,13 +417,8 @@ html{
 	font-weight: 600;
 	margin-bottom: 60px;
 	padding-bottom: 20px;
-<<<<<<< HEAD
-	margin-right: 35%;
-    margin-left: 35%;
-=======
 	margin-right: 37%;
     margin-left: 37%;
->>>>>>> gh-pages
     border-bottom: 3px solid black;
 }
 
